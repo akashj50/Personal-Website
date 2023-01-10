@@ -1,0 +1,38 @@
+.temp{
+    max-width:5240px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:40px;
+    padding-bottom:0rem;
+
+}
+.tempp{
+    background:black;
+    padding: 1.2rem 1rem;
+    margin: auto;
+}
+.tempp img{
+    width:100%;
+}
+.title{
+    color:white;
+    padding:1rem 0;
+    text-align: center;
+}
+.content{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align:center;
+}
+.button{
+    display:flex;
+    justify-content:space-between;
+    padding: 1rem 0;
+    
+}
+.button .btn{
+    padding: 0.5rem 1rem;
+    margin: auto;
+
+}
